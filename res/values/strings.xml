@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BitCraft</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+
+    <string-array name="betAmounts">
+        <item>0.001</item>
+        <item>0.005</item>
+        <item>0.01</item>
+        <item>0.05</item>
+        <item>0.1</item>
+        <item>0.5</item>
+    </string-array>
+</resources>

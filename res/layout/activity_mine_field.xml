@@ -1,0 +1,318 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:tileMode="repeat" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="@drawable/stones" >
+
+            <TextView
+                android:id="@+id/tvPayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0.0"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tvBalance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="10.0"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="10dp" >
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/bGrid1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/grass"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/bGrid2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/grass"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/bGrid3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/grass"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/bGrid4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/grass"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/bGrid5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/grass"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/bGrid6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/grass"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/bGrid7"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/grass"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/bGrid8"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/grass"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/bGrid9"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/grass"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/bGrid10"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/grass"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/bGrid11"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/grass"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/bGrid12"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/grass"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/bGrid13"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/grass"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/bGrid14"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/grass"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/bGrid15"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/grass"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/bGrid16"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/grass"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/bGrid17"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/grass"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/bGrid18"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/grass"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/bGrid19"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/grass"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/bGrid20"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/grass"
+                    android:text="" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/bGrid21"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/grass"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/bGrid22"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/grass"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/bGrid23"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/grass"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/bGrid24"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/grass"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/bGrid25"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/grass"
+                    android:text="" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/stones"
+            android:orientation="vertical" >
+
+            <SeekBar
+                android:id="@+id/sbBet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:progress="40" />
+
+            <TextView
+                android:id="@+id/tvBetValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=" "
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp" >
+
+                <Spinner
+                    android:id="@+id/sBTCBet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" />
+
+                <Button
+                    android:id="@+id/bCashOut"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/stones"
+                    android:text="CASH OUT" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/bReset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/stones"
+                android:text="RESET" />
+
+            <Button
+                android:id="@+id/bPlaceBet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/stones"
+                android:text="PLACE BET" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
